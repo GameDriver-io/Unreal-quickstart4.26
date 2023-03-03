@@ -28,22 +28,25 @@ using UnrealBuildTool;
 
 public class UnrealCLR : ModuleRules {
 	public UnrealCLR(ReadOnlyTargetRules Target) : base(Target) {
+		#if UE_4_24_OR_LATER
+			bLegacyPublicIncludePaths = false;
+			DefaultBuildSettings = BuildSettingsVersion.V2;
+		#else
+			PCHUsage = ModuleRules.PCHUsageMode.UseExplicitOrSharedPCHs;
+#endif
 
-		PCHUsage = ModuleRules.PCHUsageMode.UseExplicitOrSharedPCHs;
+		OptimizeCode = CodeOptimization.Never;
 
-		bUsePrecompiled = true;
+        	bUsePrecompiled = true;
+        PublicIncludePaths.AddRange(new string[] { });
 
-        OptimizeCode = CodeOptimization.Never;
+        //PrecompileForTargets = PrecompileTargetsType.Any;
 
-	 PrecompileForTargets = PrecompileTargetsType.Any;
-
-		PublicIncludePaths.AddRange(new string[] { });
-
-		PrivateIncludePaths.AddRange(new string[] { "../../../../../../UE_4.27/Engine/Plugins/Experimental/CommonUI/Source/CommonUI/Private/" });
+        PrivateIncludePaths.AddRange(new string[] { "../../../../../../UE_4.27/Engine/Plugins/Experimental/CommonUI/Source/CommonUI/Private/" });
 
 		PublicDependencyModuleNames.AddRange(new string[] {
-			"Core",
-		});
+			"Core", "ApplicationCore", "AugmentedReality"
+        });
 
 		PrivateDependencyModuleNames.AddRange(new string[] {
 			"AIModule",

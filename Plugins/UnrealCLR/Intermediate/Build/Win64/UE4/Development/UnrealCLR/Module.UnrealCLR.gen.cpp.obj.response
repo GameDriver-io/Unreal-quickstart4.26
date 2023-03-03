@@ -29,7 +29,7 @@
 /wd4838
 /I .
 /I ..\Plugins\Experimental\CommonUI\Source\CommonUI\Private
-/I E:\Packing\UnrealCLR\HostProject\Plugins\UnrealCLR\Source\UnrealCLR\Private
+/I E:\Unreal\UnrealProjects\VRTest1\Plugins\UnrealCLR\Source\UnrealCLR\Private
 /I ..\Intermediate\Build\Win64\UE4\Inc\AIModule
 /I Runtime
 /I Runtime\NavigationSystem\Public
@@ -142,9 +142,9 @@
 /I Runtime\MovieSceneTracks\Public
 /I ..\Intermediate\Build\Win64\UE4\Inc\PropertyPath
 /I Runtime\PropertyPath\Public
-/I E:\Packing\UnrealCLR\HostProject\Plugins\UnrealCLR\Intermediate\Build\Win64\UE4\Inc\UnrealCLR
-/I E:\Packing\UnrealCLR\HostProject\Plugins\UnrealCLR\Source
-/I E:\Packing\UnrealCLR\HostProject\Plugins\UnrealCLR\Source\UnrealCLR\Public
+/I E:\Unreal\UnrealProjects\VRTest1\Plugins\UnrealCLR\Intermediate\Build\Win64\UE4\Inc\UnrealCLR
+/I E:\Unreal\UnrealProjects\VRTest1\Plugins\UnrealCLR\Source
+/I E:\Unreal\UnrealProjects\VRTest1\Plugins\UnrealCLR\Source\UnrealCLR\Public
 /I ThirdParty\PhysX3\PxShared\include
 /I ThirdParty\PhysX3\PxShared\include\cudamanager
 /I ThirdParty\PhysX3\PxShared\include\filebuf
@@ -168,15 +168,18 @@
 /I ThirdParty\PhysX3\APEX_1.4\shared\general\RenderDebug\public
 /I ThirdParty\PhysX3\APEX_1.4\shared\general\PairFilter\include
 /I ThirdParty\PhysX3\APEX_1.4\shared\internal\include
-/I "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE"
+/I "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\INCLUDE"
 /I "C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\winrt"
-"E:\Packing\UnrealCLR\HostProject\Plugins\UnrealCLR\Intermediate\Build\Win64\UE4\Development\UnrealCLR\Module.UnrealCLR.gen.cpp"
-/FI"E:\Packing\UnrealCLR\HostProject\Plugins\UnrealCLR\Intermediate\Build\Win64\UE4\Development\UnrealCLR\Definitions.h"
-/Fo"E:\Packing\UnrealCLR\HostProject\Plugins\UnrealCLR\Intermediate\Build\Win64\UE4\Development\UnrealCLR\Module.UnrealCLR.gen.cpp.obj"
+/FI"E:\Unreal\UnrealProjects\VRTest1\Intermediate\Build\Win64\VRTest1\Development\Engine\SharedPCH.Engine.NonOptimized.ShadowErrors.h"
+/Yu"E:\Unreal\UnrealProjects\VRTest1\Intermediate\Build\Win64\VRTest1\Development\Engine\SharedPCH.Engine.NonOptimized.ShadowErrors.h"
+/Fp"E:\Unreal\UnrealProjects\VRTest1\Intermediate\Build\Win64\VRTest1\Development\Engine\SharedPCH.Engine.NonOptimized.ShadowErrors.h.pch"
+"E:\Unreal\UnrealProjects\VRTest1\Plugins\UnrealCLR\Intermediate\Build\Win64\UE4\Development\UnrealCLR\Module.UnrealCLR.gen.cpp"
+/FI"E:\Unreal\UnrealProjects\VRTest1\Plugins\UnrealCLR\Intermediate\Build\Win64\UE4\Development\UnrealCLR\Definitions.UnrealCLR.h"
+/Fo"E:\Unreal\UnrealProjects\VRTest1\Plugins\UnrealCLR\Intermediate\Build\Win64\UE4\Development\UnrealCLR\Module.UnrealCLR.gen.cpp.obj"
 /TP
 /GR-
 /W4

@@ -12,9 +12,9 @@
 	"SupportURL": "",
 	"EnabledByDefault": true,
 	"CanContainContent": true,
-	"IsBetaVersion": true,
+	"IsBetaVersion": false,
 	"IsExperimentalVersion": false,
-	"Installed": true,
+	"Installed": false,
 	"Modules": [
 		{
 			"Name": "UnrealCLR",

@@ -18,8 +18,8 @@ struct FHitResult;
 #endif
 #define UNREALCLR_UnrealCLRManager_generated_h
 
-#define HostProject_Plugins_UnrealCLR_Source_UnrealCLR_Public_UnrealCLRManager_h_32_SPARSE_DATA
-#define HostProject_Plugins_UnrealCLR_Source_UnrealCLR_Public_UnrealCLRManager_h_32_RPC_WRAPPERS \
+#define VRTest1_Plugins_UnrealCLR_Source_UnrealCLR_Public_UnrealCLRManager_h_32_SPARSE_DATA
+#define VRTest1_Plugins_UnrealCLR_Source_UnrealCLR_Public_UnrealCLRManager_h_32_RPC_WRAPPERS \
  \
 	DECLARE_FUNCTION(execComponentReleased); \
 	DECLARE_FUNCTION(execComponentClicked); \
@@ -37,7 +37,7 @@ struct FHitResult;
 	DECLARE_FUNCTION(execActorBeginOverlap);
 
 
-#define HostProject_Plugins_UnrealCLR_Source_UnrealCLR_Public_UnrealCLRManager_h_32_RPC_WRAPPERS_NO_PURE_DECLS \
+#define VRTest1_Plugins_UnrealCLR_Source_UnrealCLR_Public_UnrealCLRManager_h_32_RPC_WRAPPERS_NO_PURE_DECLS \
  \
 	DECLARE_FUNCTION(execComponentReleased); \
 	DECLARE_FUNCTION(execComponentClicked); \
@@ -55,7 +55,7 @@ struct FHitResult;
 	DECLARE_FUNCTION(execActorBeginOverlap);
 
 
-#define HostProject_Plugins_UnrealCLR_Source_UnrealCLR_Public_UnrealCLRManager_h_32_INCLASS_NO_PURE_DECLS \
+#define VRTest1_Plugins_UnrealCLR_Source_UnrealCLR_Public_UnrealCLRManager_h_32_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesUUnrealCLRManager(); \
 	friend struct Z_Construct_UClass_UUnrealCLRManager_Statics; \
@@ -64,7 +64,7 @@ public: \
 	DECLARE_SERIALIZER(UUnrealCLRManager)
 
 
-#define HostProject_Plugins_UnrealCLR_Source_UnrealCLR_Public_UnrealCLRManager_h_32_INCLASS \
+#define VRTest1_Plugins_UnrealCLR_Source_UnrealCLR_Public_UnrealCLRManager_h_32_INCLASS \
 private: \
 	static void StaticRegisterNativesUUnrealCLRManager(); \
 	friend struct Z_Construct_UClass_UUnrealCLRManager_Statics; \
@@ -73,7 +73,7 @@ public: \
 	DECLARE_SERIALIZER(UUnrealCLRManager)
 
 
-#define HostProject_Plugins_UnrealCLR_Source_UnrealCLR_Public_UnrealCLRManager_h_32_STANDARD_CONSTRUCTORS \
+#define VRTest1_Plugins_UnrealCLR_Source_UnrealCLR_Public_UnrealCLRManager_h_32_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API UUnrealCLRManager(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UUnrealCLRManager) \
@@ -86,7 +86,7 @@ private: \
 public:
 
 
-#define HostProject_Plugins_UnrealCLR_Source_UnrealCLR_Public_UnrealCLRManager_h_32_ENHANCED_CONSTRUCTORS \
+#define VRTest1_Plugins_UnrealCLR_Source_UnrealCLR_Public_UnrealCLRManager_h_32_ENHANCED_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API UUnrealCLRManager(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()) : Super(ObjectInitializer) { }; \
 private: \
@@ -99,28 +99,28 @@ public: \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UUnrealCLRManager)
 
 
-#define HostProject_Plugins_UnrealCLR_Source_UnrealCLR_Public_UnrealCLRManager_h_32_PRIVATE_PROPERTY_OFFSET
-#define HostProject_Plugins_UnrealCLR_Source_UnrealCLR_Public_UnrealCLRManager_h_30_PROLOG
-#define HostProject_Plugins_UnrealCLR_Source_UnrealCLR_Public_UnrealCLRManager_h_32_GENERATED_BODY_LEGACY \
+#define VRTest1_Plugins_UnrealCLR_Source_UnrealCLR_Public_UnrealCLRManager_h_32_PRIVATE_PROPERTY_OFFSET
+#define VRTest1_Plugins_UnrealCLR_Source_UnrealCLR_Public_UnrealCLRManager_h_30_PROLOG
+#define VRTest1_Plugins_UnrealCLR_Source_UnrealCLR_Public_UnrealCLRManager_h_32_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	HostProject_Plugins_UnrealCLR_Source_UnrealCLR_Public_UnrealCLRManager_h_32_PRIVATE_PROPERTY_OFFSET \
-	HostProject_Plugins_UnrealCLR_Source_UnrealCLR_Public_UnrealCLRManager_h_32_SPARSE_DATA \
-	HostProject_Plugins_UnrealCLR_Source_UnrealCLR_Public_UnrealCLRManager_h_32_RPC_WRAPPERS \
-	HostProject_Plugins_UnrealCLR_Source_UnrealCLR_Public_UnrealCLRManager_h_32_INCLASS \
-	HostProject_Plugins_UnrealCLR_Source_UnrealCLR_Public_UnrealCLRManager_h_32_STANDARD_CONSTRUCTORS \
+	VRTest1_Plugins_UnrealCLR_Source_UnrealCLR_Public_UnrealCLRManager_h_32_PRIVATE_PROPERTY_OFFSET \
+	VRTest1_Plugins_UnrealCLR_Source_UnrealCLR_Public_UnrealCLRManager_h_32_SPARSE_DATA \
+	VRTest1_Plugins_UnrealCLR_Source_UnrealCLR_Public_UnrealCLRManager_h_32_RPC_WRAPPERS \
+	VRTest1_Plugins_UnrealCLR_Source_UnrealCLR_Public_UnrealCLRManager_h_32_INCLASS \
+	VRTest1_Plugins_UnrealCLR_Source_UnrealCLR_Public_UnrealCLRManager_h_32_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define HostProject_Plugins_UnrealCLR_Source_UnrealCLR_Public_UnrealCLRManager_h_32_GENERATED_BODY \
+#define VRTest1_Plugins_UnrealCLR_Source_UnrealCLR_Public_UnrealCLRManager_h_32_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	HostProject_Plugins_UnrealCLR_Source_UnrealCLR_Public_UnrealCLRManager_h_32_PRIVATE_PROPERTY_OFFSET \
-	HostProject_Plugins_UnrealCLR_Source_UnrealCLR_Public_UnrealCLRManager_h_32_SPARSE_DATA \
-	HostProject_Plugins_UnrealCLR_Source_UnrealCLR_Public_UnrealCLRManager_h_32_RPC_WRAPPERS_NO_PURE_DECLS \
-	HostProject_Plugins_UnrealCLR_Source_UnrealCLR_Public_UnrealCLRManager_h_32_INCLASS_NO_PURE_DECLS \
-	HostProject_Plugins_UnrealCLR_Source_UnrealCLR_Public_UnrealCLRManager_h_32_ENHANCED_CONSTRUCTORS \
+	VRTest1_Plugins_UnrealCLR_Source_UnrealCLR_Public_UnrealCLRManager_h_32_PRIVATE_PROPERTY_OFFSET \
+	VRTest1_Plugins_UnrealCLR_Source_UnrealCLR_Public_UnrealCLRManager_h_32_SPARSE_DATA \
+	VRTest1_Plugins_UnrealCLR_Source_UnrealCLR_Public_UnrealCLRManager_h_32_RPC_WRAPPERS_NO_PURE_DECLS \
+	VRTest1_Plugins_UnrealCLR_Source_UnrealCLR_Public_UnrealCLRManager_h_32_INCLASS_NO_PURE_DECLS \
+	VRTest1_Plugins_UnrealCLR_Source_UnrealCLR_Public_UnrealCLRManager_h_32_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
@@ -128,7 +128,7 @@ PRAGMA_ENABLE_DEPRECATION_WARNINGS
 template<> UNREALCLR_API UClass* StaticClass<class UUnrealCLRManager>();
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID HostProject_Plugins_UnrealCLR_Source_UnrealCLR_Public_UnrealCLRManager_h
+#define CURRENT_FILE_ID VRTest1_Plugins_UnrealCLR_Source_UnrealCLR_Public_UnrealCLRManager_h
 
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
