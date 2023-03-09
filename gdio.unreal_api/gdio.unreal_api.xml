@@ -275,7 +275,7 @@
             <example><code escaped="true">//Loads the FinalBoss scene
             api.LoadScene("FinalBoss");</code></example>
         </member>
-        <member name="M:gdio.unreal_api.ApiClient.Click(gdio.common.objects.MouseButtons,gdio.common.objects.Vector2,System.Int32,System.Int32)">
+        <member name="M:gdio.unreal_api.ApiClient.Click(gdio.common.objects.MouseButtons,gdio.common.objects.Vector2,System.UInt64,System.Int32)">
             <summary>
             Use this function to perform in-game mouse-clicks.
             </summary>        
@@ -335,7 +335,7 @@
                 new KeyCode[] { KeyCode.LeftShift }, 3,
                 500, 30);</code></example>
         </member>
-        <member name="M:gdio.unreal_api.ApiClient.MouseDrag(gdio.common.objects.MouseButtons,gdio.common.objects.Vector2,System.Int32,gdio.common.objects.Vector2,System.Boolean,System.Int32)">
+        <member name="M:gdio.unreal_api.ApiClient.MouseDrag(gdio.common.objects.MouseButtons,gdio.common.objects.Vector2,System.UInt64,gdio.common.objects.Vector2,System.Boolean,System.Int32)">
             <summary>
             Perform a mouse drag operation.
             </summary>
@@ -362,7 +362,7 @@
             <example><code escaped="true">//Moves the mouse to the center of the object named "Cylinder" over 300 frames
             api.MouseMoveToObject("//*[@name='Cylinder']", 300, true, true);</code></example>
         </member>
-        <member name="M:gdio.unreal_api.ApiClient.MouseMoveToPoint(gdio.common.objects.Vector2,System.Int32,gdio.common.objects.Vector2,System.Boolean,System.Int32)">
+        <member name="M:gdio.unreal_api.ApiClient.MouseMoveToPoint(gdio.common.objects.Vector2,System.UInt64,gdio.common.objects.Vector2,System.Boolean,System.Int32)">
              <summary>
              Move the mouse to the destination vector.
              </summary>
@@ -864,6 +864,16 @@
             
             api.VRInput("Left", new Vector3(0, 0, 5), api.EulerToQuat(-10, 0, 0), 0); //Move the left controller to the coordinates relative to the HMD.
             </code></example>
+        </member>
+        <member name="T:gdio.unreal_api.UE4.KeyCode">
+            <summary>
+            Keycode is a mapping of EKeys from UnrealEngine. 
+            </summary>
+        </member>
+        <member name="T:gdio.unreal_api.UE5.KeyCode">
+            <summary>
+            Keycode is a mapping of EKeys from UnrealEngine.
+            </summary>
         </member>
     </members>
 </doc>
